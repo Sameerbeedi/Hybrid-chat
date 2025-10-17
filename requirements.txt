@@ -1,0 +1,25 @@
+# Requirements for Hybrid Chat Evaluation System
+
+# AI Providers
+openai>=1.0.0  # OpenAI (requires paid credits)
+google-generativeai>=0.3.0  # Google Gemini (FREE alternative)
+
+# Pinecone for vector database
+pinecone>=5.0.0
+
+# Neo4j for graph database
+neo4j>=5.0.0
+
+# Visualization
+pyvis>=0.3.2
+networkx>=3.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# BM25 keyword search
+rank-bm25>=0.2.2
+numpy
+
+# Environment variables (optional but recommended)
+python-dotenv>=1.0.0
