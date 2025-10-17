@@ -43,6 +43,12 @@ config.py
 # Generated files
 neo4j_viz.html
 
+# Chat history saves (user-generated)
+chat_history_*.txt
+
+# Embedding cache
+.embedding_cache.json
+
 # Logs
 *.log
 
